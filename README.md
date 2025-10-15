@@ -15,6 +15,8 @@ conda activate
 #
 conda install -c conda-forge biopython -y
 
+python -c "from Bio import AlignIO; AlignIO.convert('Alineamiento.aln','clustal','Alineamiento.fasta','fasta')"
+
  #crear un ambiente de trabajo
  #
 conda create -n evoNR2B python=3.10 -y   
