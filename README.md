@@ -10,7 +10,10 @@ conda --version
 #
 conda activate 
 
+#para pasar de .aln a .fasta
 
+#
+conda install -c conda-forge biopython -y
 
  #crear un ambiente de trabajo
  #
